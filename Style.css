@@ -1,0 +1,215 @@
+@font-face
+{
+font-family: Azonix;
+src: url('Azonix.otf'); /* IE9 */
+}
+*{
+    font-family: Azonix;
+}
+nav{
+  display: flex;
+  position: absolute;
+  background: linear-gradient(rgb(84, 106, 146),rgb(148, 146, 146));
+  width: 100%;
+  padding: 1px 49px;
+  top: 0;
+  justify-content: space-between;
+
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    grid-template-rows: repeat(2,70px);
+}
+.ul{
+    align-items: center;
+}
+li{
+    font-size: 25px;
+}
+.row{
+    grid-column-start: 3;
+}
+body {
+  background-image: url('unii.jpg');
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+ 
+h1{
+    text-align: center;
+    
+}
+
+div.flex{
+    display: flex;
+}
+img.logo{
+    margin: 20px 10px 0 0;
+    width: 50px;
+    height: 50px;
+    border-radius: 80px;
+    -webkit-border-radius: 80px;
+    -moz-border-radius: 80px;
+    -ms-border-radius: 80px;
+    -o-border-radius: 80px;
+    box-shadow : 2px 2px #504BBC;
+}
+h1.UniverseClub{
+    margin-top: 35px;
+    font-size: 30px;
+}
+strong.Universe{
+    color: #0f6bff ;
+    text-shadow: 0 0 3px rgb(57, 57, 202);
+}
+strong.Enig{
+    color: #504BBC ;
+    text-shadow: 0 0 3px rgb(57, 57, 202);
+}
+.btn{
+    height: 30px;
+    
+    margin:30px 20px 0 0;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    background-color: white;
+    color: #0f6bff;
+     border-color: #0f6bff9a;
+}
+img.Team{
+    width: 100%;
+}
+.Title ,.board ,.val ,.membership{
+    text-decoration: underline;
+    text-decoration-color:blueviolet ;
+    -moz-text-decoration-color:blueviolet ;
+    text-align: center;
+    color: rgb(94, 21, 158);
+    text-shadow: 0 0 3px rgb(57, 57, 202);
+}
+.par{
+    text-align: center;
+    box-shadow: 0 0 10px 10px rgbA(36,12,173,.5);
+    padding: 10px 10px 10px 10px;
+    background-color: rgba(36,12,173,.5);
+}
+* {box-sizing:border-box}
+figure{
+    margin: auto;
+}
+
+
+.slideshow-container {
+  max-width: 350px;
+  position: relative;
+  margin: auto;
+}
+
+
+.mySlides {
+  display: none;
+}
+
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+.text {
+    text-shadow:2px 2px #2577fb;
+    color: #ffffff;
+    font-size: 30px;
+    padding: 8px 12px;
+    position: absolute;
+    top: -30px;
+    width: 100%;
+    text-align: center;
+
+}
+
+
+.numbertext {
+  color: #afafaf;
+  font-size: 12px;
+  padding: 300px 12px;
+  position: absolute;
+  top: 0;
+}
+
+
+.rows:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.rows{
+  box-shadow: 0 0 20px 20px rgbA(36,12,173,.5);
+  background-color: rgba(36,12,173,.5);
+}
+
+.column {
+  float: left;
+  width: 14%;;
+  
+}
+
+
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+table {
+    width: 100%;
+    border:1px solid;
+}
+tr {
+    border: 1px solid;
+}
+table, th, td {
+    border: 1px solid;
+    color: white;
+  }
+  table {
+    border-collapse: collapse;
+  }
+footer {
+    background-color: #0f6bff ;
+    text-align: center; 
+}
+
+
